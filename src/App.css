@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.hero-section{
+  background-image: url("/src/assets/images/portfolio_bgimg.jpg");
+}
+
+body {
+  background: #feffde;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+  background-color: #fefff7;
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.title {
+  font-size: 15em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: #b9c6d2;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+p{
+  font-family: 'Roboto Slab', serif;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: #ddffbc;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #91c788;
+  box-shadow: 2px 3px 5px #666666;
+}
+
+.workButton:hover {
+  background-color: #52734d;
+}
+
+.schoolButton {
+  background-color: #91c788;
+}
+
+.schoolButton:hover {
+  background-color: #52734d;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+
+.overlay {
+  background: rgb(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
