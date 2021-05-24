@@ -9,7 +9,7 @@ function Navbar(){
                 </div>
                 <div class="px-2 pt-2 pb-3 space-y-1 items-center mx-auto md:block hidden">
                     <a href="#Career Timeline" class="px-3 py-2 mx-4 rounded-3xl text-base font-medium 
-                    text-white hover:text-gray-900 hover:bg-gray-50 inline-flex cursor-pointer">Career Timeline</a>
+                    text-white hover:text-gray-900 hover:bg-gray-50 inline-flex cursor-pointer active">Career Timeline</a>
 
                     <a href="#Abilities" class="px-3 py-2 mx-4 rounded-3xl text-base font-medium 
                     text-white hover:text-gray-900 hover:bg-gray-50 inline-flex cursor-pointer">Abilities</a>
