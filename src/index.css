@@ -16,3 +16,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Overlay hover effect */
+.prjoverlay {
+  transition: all 0.7s ease-in-out;
+  background-color:#6b7280;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+p.text{
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+p.text:hover {
+  transform: translateY(-100px);
+}
+----------------------------------------------
+.view-first img { 
+  transition: all 0.2s linear;
+}
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(219,127,8, 0.7); 
+  transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+  transform: translateY(100px);
+  opacity: 0;
+transition: all 0.2s linear;
+}
+.view-first a.info{
+  opacity: 0;
+transition: all 0.2s ease-in-out;
+}
+/* Hover effect */
+.view-first:hover img { 
+	transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+	opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}

@@ -34,14 +34,14 @@ function Contact(){
                         </div>
 
                         <div className="block md:inline-block hover:text-gray-900 cursor-pointer">
-                            <tel>+91-9911284561</tel>
+                            <p>+91-9911284561</p>
                         </div>
                     </div>
                 </div>
 
                 <hr className="m-auto w-1/2 text-gray-50 bg-gray-50"></hr>
                 
-                <p className="text-center mt-36">© 2021 Aveek Mukherjee</p>
+                <p className="text-center mt-20">© 2021 Aveek Mukherjee</p>
             </div>
         </>
     );

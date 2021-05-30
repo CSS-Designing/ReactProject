@@ -15,12 +15,33 @@ function Project(){
                 author={titleeleements[2].author}
             />
             <div className="grid grid-flow-col grid-cols-2 grid-rows-1 mx-auto my-8 w-10/12">
-                <div>
-                    <img className="w-11/12" src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Project 1:Node.js" />
+                <div className="mr-8 relative hover:opacity-100">
+                    <img className="w-full block h-full" src="https://images.pexels.com/photos/6373862/pexels-photo-6373862.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Project 1:Node.js" />
+                    <div className="prjoverlay opacity-0 absolute inset-0 hover:opacity-100">
+                        
+                        <div className="text text-base md:text-2xl">
+                            <h5>Newsletter Application</h5>
+                            <a classname="text-green-500 focus:text-green-900" href="https://safe-reef-87388.herokuapp.com/">Read More</a>
+                        </div>
+
+                        
+                    </div>
                 </div>
-                <div>
-                    <img className="w-11/12" src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Project 1:Node.js" />
+
+                <div className="mr-8 relative hover:opacity-100">
+                    <img className="w-full block h-full" src="https://images.pexels.com/photos/6373862/pexels-photo-6373862.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Project 2:Node.js" />
+                    <div className="prjoverlay opacity-0 absolute inset-0 hover:opacity-100">
+                        
+                        <div className="text text-base md:text-2xl">
+                            <h5>Newsletter Application</h5>
+                            <a classname="text-green-500 focus:text-green-900" href="https://safe-reef-87388.herokuapp.com/">Read More</a>
+                        </div>
+
+                        
+                    </div>
                 </div>
+
+                
             </div>
         </>
     );

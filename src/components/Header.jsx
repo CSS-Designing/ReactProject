@@ -4,12 +4,15 @@ import Navbar from "./Navbar";
 import {FaLinkedinIn} from "react-icons/fa";
 import {SiSkypeforbusiness} from "react-icons/si";
 import Typed from "react-typed";
+import Particles from 'react-particles-js';
 
 function Header(){
 
     return(
         <div className="hero-section bg-cover bg-center h-screen">
-            <div className="overlay">        
+            
+            <div className="overlay">    
+                <Particles />    
                 <Navbar />
                 <div className="flex justify-center items-center">
                     <div className="m-auto text-center mt-52 text-white">
