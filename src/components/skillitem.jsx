@@ -1,11 +1,12 @@
 import React from "react";
 
 
+
 function skillitem(props){
 
     return(
         <>
-            <li className="text-center">{props.name}</li>
+             <p className="text-xs">{props.name}</p> 
         </>
     );
 }
